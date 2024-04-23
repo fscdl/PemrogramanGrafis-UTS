@@ -1,0 +1,19 @@
+body {
+    display: flex; /* Menggunakan tata letak flexbox */
+    flex-direction: column; /* Mengatur arah tata letak menjadi vertikal */
+    justify-content: center; /* Mengatur konten agar berada di tengah secara vertikal */
+    align-items: center; /* Mengatur item agar berada di tengah secara horizontal */
+    height: 100vh; /* Menggunakan tinggi viewport untuk membuat konten berada di tengah vertikal */
+    margin: 0; /* Menghapus margin default */
+}
+
+h1 {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    font-family: 'Pacifico', cursive; /* Mengatur jenis font */
+}
+
+#canvas {
+    margin: 20px auto; /* Mengatur margin atas dan bawah 20px, dan tengah secara horizontal */
+    border: 1px solid black; /* Menambahkan border hitam dengan ketebalan 1px */
+}
+
